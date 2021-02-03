@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="MATERIAL.CSS">
+</head>
+<body>
+	<script src="jquery.min.js" ></script>
+	<script src="materialize.js"></script>
+
+	<!--
+	::::::::::::::::::::::::::::MENU
+	-->
+	 <nav>
+	    <div class="nav-wrapper" style="background: #383C41">
+	      <a href="#!" class="brand-logo"><img src="logo.png" alt=""></a>
+	      <a href="#" class="hide" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	      <ul class="right hide-on-med-and-down">
+	        <li><a href="sass.html">Sass</a></li>
+	        <li><a href="badges.html">Components</a></li>
+	        <li><a href="collapsible.html">Javascript</a></li>
+	        <li><a href="mobile.html">Mobile</a></li>
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+	        <li><a href="sass.html">Sass</a></li>
+	        <li><a href="badges.html">Components</a></li>
+	        <li><a href="collapsible.html">Javascript</a></li>
+	        <li><a href="mobile.html">Mobile</a></li>
+	      </ul>
+	    </div>
+	 </nav>
+	<!--
+	::::::::::::::::::::::::::::MENU
+	-->
+			<!--BOTÃO FIXO-->
+			  <div  class=" fixed-action-btn" onclick="Materialize.toast('Saber mais no FACEBOOK: Se eu fosse você?', 4000)" style="bottom: 45px; right: 24px;">
+			    <a class="btn-floating btn-large" style="background: #383C41;">
+			    <img src="porta.png" alt="">
+			    </a>
+			    <ul>
+			      <li><a class="btn-floating" href="https://m.facebook.com/groups/709400059762499/" style="background: #383C41;"><img src="rom.png" alt="" style="width: 30px; height: 30px"></a></li>
+			    </ul>
+			  </div>
+			<!--BOTÃO FIXO-->
+			        <img style="width: 100%" src="terapia.png"> 
+			<!--:::::::::::::::::::::TEMA PRINCIPAL-->
+			<div class="row">
+				 <div class="cols s12" style="text-align: center;">
+				 	<h2>Terapia para casais:</h2><br>
+				 	<h3 style="margin-top: -30px">Se <strong style="color: red;">eu</strong> fosse <strong style="color: red;">Você</strong>...</h3>
+				 </div>
+			</div>
+			<!--::::::::::::::::::::::TEMA PRINCIPAL-->
+			<!--C:::::::::::::::::::::CARDS-->
+
+
+
+			
+			<div class="row">
+		        <div class="col s12 l6">
+		          <div class="card">
+		            <div class="card-image">
+		              <img src="images.jpeg">
+		              <span class="card-title black-text" style="color:red">Não caia nesses erros!</span>
+		            </div>
+		            <div class="card-content"><p>
+						Tem sido notório os problemas que namorados
+						e recem casados têm enfrentado nas vidas extra-conjugais mas
+						isso não necessariamente quer dizer que o casal não se ame ou que não sejam 
+						suficientemente maduro. <br>
+						Tem outros factores... 
+					</p>
+		            </div>
+		            <div class="card-action">
+		              <a class="modal-trigger waves-effect waves-light" href="#modal1" style="color: red; font-size: 18pt">Continuar lendo?</a>
+		              <a class="waves-effect waves-light" href="https://m.facebook.com/groups/709400059762499/" style="color: red; font-size: 18pt">Ver mais no Facebook</a>
+		            </div>
+		          </div>
+		        </div>
+
+		        <div class="col s12 l6">
+		          <div class="card">
+		            <div class="card-image">
+		              <img src="net.jpg">
+		              <span class="card-title black-text" style="color: red">Se eu fosse você!</span>
+		            </div>
+		            <div class="card-content"><p>
+						Tem sido notório os problemas que namorados
+						e recem casados têm enfrentado nas vidas extra-conjugais mas
+						isso não necessariamente quer dizer que o casal não se ame ou que não sejam 
+						suficientemente maduro. <br>
+						Tem outros factores... 
+					</p>
+		            </div>
+		            <div class="card-action">
+		              <a class="modal-trigger waves-effect waves-light" href="#modal1" style="color: red; font-size: 18pt">Continuar lendo?</a>
+		              <a class="waves-effect waves-light" href="https://m.facebook.com/groups/709400059762499/" style="color: red; font-size: 18pt">Ver mais no Facebook</a>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+	        <!--::::::::::::::::::::::::cARDS-->
+	        <!--::::::::::::::::::::::::MODAL-->
+	         <div id="modal1" class="modal modal-fixed-footer">
+			    <div class="modal-content">
+			      <h4>Relações hoje em dia...</h4>
+			      <p>Tem sido notório os problemas que namorados
+						e recem casados têm enfrentado nas vidas extra-conjugais mas
+						isso não necessariamente quer dizer que o casal não se ame ou que não sejam 
+						suficientemente maduro. <br>
+						Tem outros factores que contribuem fortemente para uma vida
+						amorosa desastrosa ou prospera e amorosa. Sabendo disso
+						gostariamos de partilhar contigo os 6 segredos dos casais que
+						deram certo!</p>
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Fechar</a>
+			    </div>
+			 </div>
+	        <!--::::::::::::::::::::::::MODAL-->
+			
+			<!--::::::::::::::::::::::::COLAPSE-->
+			<ul class="collapsible popout" data-collapsible="accordion">
+			    <li>
+			      <div class="collapsible-header">
+			      Local/ Dia e Hora</div>
+			      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+			    </li>
+			    <li>
+			      <div class="collapsible-header">
+			      	Reservas</div>
+			      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+			    </li>
+			    <li>
+			      <div class="collapsible-header">
+			      	Prolectores</div>
+			      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+			    </li>
+		  </ul>
+			<!--::::::::::::::::::::::::COLAPSE-->
+
+	        <!--::::::::::::::::::::::::FOOTE-->
+	        <footer>
+	       		 <img style="width: 100%" src="footer.png" alt="">
+	        </footer>
+	        <!--::::::::::::::::::::::::FOOTER-->
+
+	<script>
+		$(document).ready(function(){
+      			$(".button-collapse").sideNav();
+      			 $('.modal-trigger').leanModal();
+				});
+	</script>
+</body>
+</html>
